@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['license-plate']
+
+roboflow:
+  workspace: owl-zdwvi
+  project: license-plate-n8wbg
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/owl-zdwvi/license-plate-n8wbg/dataset/5
